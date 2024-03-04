@@ -24,11 +24,11 @@ class Bottom extends StatelessWidget {
             ),
             Tab(
               icon: Icon(
-                Icons.search,
+                Icons.people,
                 size:18,
               ),
               child: Text(
-                  '검색',
+                  '참여자 등록',
                   style: TextStyle(fontSize: 9)
               ),
             ),
@@ -38,7 +38,7 @@ class Bottom extends StatelessWidget {
                 size:18,
               ),
               child: Text(
-                  '저장한 컨텐츠 목록',
+                  '게임현황',
                   style: TextStyle(fontSize: 9)
               ),
             ),
@@ -48,7 +48,7 @@ class Bottom extends StatelessWidget {
                 size:18,
               ),
               child: Text(
-                  '더보기',
+                  '개발중인 기능',
                   style: TextStyle(fontSize: 9)
               ),
             ),

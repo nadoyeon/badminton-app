@@ -1,3 +1,5 @@
+
+import 'package:ddddd/screen/home.dart';
 import 'package:ddddd/widget/bottom_bar.dart';
 import 'package:flutter/material.dart'; // flutter의 핵심이라고 할 수 있는 주요 라이브러리를 불러온다.
 
@@ -20,7 +22,7 @@ class _MyAppState extends State<MyApp> {
         body: TabBarView(
           physics: NeverScrollableScrollPhysics(),
           children: <Widget>[
-            Container(child: Center(child: Text('home'),),),
+            buildTab(), // 함수 호출
             Container(child: Center(child: Text('search'),),),
             Container(child: Center(child: Text('save'),),),
             Container(child: Center(child: Text('more'),),),
