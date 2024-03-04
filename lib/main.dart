@@ -12,13 +12,22 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context){
-    return MaterialApp(title: 'Badminton',
-    theme: ThemeData(
-        brightness: Brightness.light, primaryColor: Colors.black, hintColor: Colors.white,
-    ),
-    home: DefaultTabController(
+    return MaterialApp(
+      title: 'Badminton',
+      theme: ThemeData(
+        brightness: Brightness.light,
+        primaryColor: Colors.yellow,
+        hintColor: Colors.white,
+        primarySwatch: Colors.yellow,
+      ),
+      home: DefaultTabController(
       length: 4,
       child: Scaffold(
+        appBar: AppBar(
+          title:
+            Text('국또모'),
+            backgroundColor: Colors.yellow,
+        ),
         body: TabBarView(
           physics: NeverScrollableScrollPhysics(),
           children: <Widget>[

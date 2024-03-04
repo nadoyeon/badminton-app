@@ -1,4 +1,4 @@
-package com.example.ddddd
+package com.example.minton
 
 import io.flutter.embedding.android.FlutterActivity
 
